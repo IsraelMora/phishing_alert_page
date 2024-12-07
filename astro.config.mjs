@@ -7,6 +7,6 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://IsraelMora.github.io',
-  base: 'phishing_page',
+  base: 'phishing_alert_page',
   integrations: [tailwind()]
 });
