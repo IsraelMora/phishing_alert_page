@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+	<main class="card bg-neutral-content shadow-2xl max-w-md w-full">
+		<div class="card-body">
+		  <h1 class="card-title text-3xl text-primary">¡Advertencia de Seguridad!</h1>
+		  <p class="text-secondary">
+			Es posible que estés ingresando a un sitio de phishing. Por favor, ten cuidado.
+		  </p>
+		  <h2 class="text-xl font-semibold text-primary mt-4">Cómo protegerte:</h2>
+		  <ul class="list-disc list-inside text-secondary mb-6">
+			<li>Verifica siempre la URL del sitio</li>
+			<li>No compartas información personal sensible</li>
+			<li>Usa contraseñas fuertes y únicas</li>
+			<li>Mantén tu software actualizado</li>
+		  </ul>
+		  <div class="card-actions justify-between">
+			<button class="btn btn-primary">Cancelar</button>
+			<button class="btn btn-outline btn-secondary">Continuar con precaución</button>
+		  </div>
+		</div>
+	  </main>
+</Layout>
